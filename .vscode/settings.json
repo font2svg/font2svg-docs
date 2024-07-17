@@ -1,8 +1,8 @@
 {
   // Auto fix
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.eslint": "never",
+    "source.fixAll.stylelint": "never",
     "source.organizeImports": "never"
   },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
@@ -30,12 +30,14 @@
     "jsonc",
     "markdown",
     "scss",
+    "tailwindcss",
     "typescript",
     "typescriptreact",
     "vue",
     "yaml"
   ],
   "files.associations": {
+    "*.css": "tailwindcss",
     "*.md": "mdc"
   }
 }

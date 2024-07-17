@@ -7,10 +7,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "eslint-fix": "eslint --fix --ignore-pattern '/.nuxt/*' --ignore-pattern '/public/*' ."
+    "eslint-fix": "eslint --fix --ignore-pattern '.nuxt/' --ignore-pattern 'public/' --ignore-pattern 'content/' ."
   },
   "dependencies": {
-    "@nuxt/content": "^2.13.0",
+    "@nuxt/content": "^2.13.1",
     "@nuxt/image": "^1.7.0",
     "nuxt": "^3.12.3",
     "shadcn-docs-nuxt": "latest"
