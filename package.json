@@ -1,14 +1,21 @@
 {
-  "private": true,
   "type": "module",
+  "private": true,
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "eslint-fix": "eslint --fix --ignore-pattern '/.nuxt/*' --ignore-pattern '/public/*' ."
   },
   "dependencies": {
     "@nuxt/content": "^2.13.0",
     "nuxt": "^3.12.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "latest",
+    "@nuxt/eslint": "^0.3.13",
+    "eslint": "^9.7.0",
+    "eslint-plugin-format": "^0.1.2"
   }
 }
