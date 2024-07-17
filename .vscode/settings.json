@@ -34,5 +34,8 @@
     "typescriptreact",
     "vue",
     "yaml"
-  ]
+  ],
+  "files.associations": {
+    "*.md": "mdc"
+  }
 }
