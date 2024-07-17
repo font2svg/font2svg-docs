@@ -1,9 +1,30 @@
-# Nuxt Content
-
-This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
-
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
-
+---
+title: Home
+navigation: false
 ---
 
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
+::hero
+---
+announcement:
+  title: 'Release v0.4.1'
+  icon: 'noto:party-popper'
+  to: /getting-started/changelog
+actions:
+  - name: Get Started
+    to: /getting-started
+  - name: GitHub
+    variant: outline
+    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    leftIcon: 'lucide:github'
+---
+
+#title
+Effortless and Beautiful<br>Docs Template.
+
+#description
+Beautifully designed Nuxt Content template built with shadcn-vue.<br>Customizable. Compatible. Open Source.
+::
+
+<div class="border rounded-lg shadow-md">
+  <iframe src="/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
+</div>

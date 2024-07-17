@@ -12,7 +12,8 @@
   "dependencies": {
     "@nuxt/content": "^2.13.0",
     "@nuxt/image": "^1.7.0",
-    "nuxt": "^3.12.3"
+    "nuxt": "^3.12.3",
+    "shadcn-docs-nuxt": "latest"
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
