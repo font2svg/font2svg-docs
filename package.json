@@ -17,6 +17,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "latest",
+    "@iconify-json/heroicons": "^1.1.22",
+    "@iconify-json/logos": "^1.1.43",
+    "@iconify-json/noto": "^1.1.18",
+    "@iconify-json/vscode-icons": "^1.1.35",
     "@nuxt/eslint": "^0.3.13",
     "eslint": "^9.7.0",
     "eslint-plugin-format": "^0.1.2"
