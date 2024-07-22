@@ -6,25 +6,24 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'Release v0.4.1'
-  icon: 'noto:party-popper'
-  to: /getting-started/changelog
+  title: 'Work In Progress'
+  icon: 'noto:construction'
+  to: https://github.com/font2svg/font2svg
+  target: '_blank'
 actions:
-  - name: Get Started
+  - name: 快速开始
     to: /getting-started
+    leftIcon: 'lucide:circle-arrow-right'
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/font2svg/font2svg
     leftIcon: 'lucide:github'
+    target: '_blank'
 ---
 
 #title
-Effortless and Beautiful<br>Docs Template.
+Font2svg
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue.<br>Customizable. Compatible. Open Source.
+一个轻量的，无需下载字体文件的前端特殊字体渲染方案
 ::
-
-<div class="border rounded-lg shadow-md">
-  <iframe src="/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
-</div>

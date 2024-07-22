@@ -1,8 +1,8 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs-nuxt',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      name: 'Font2svg',
+      description: 'An innovative solution converting font files to SVGs with components for seamless frontend font rendering.',
     },
     theme: {
       customizable: true,
@@ -10,17 +10,17 @@ export default defineAppConfig({
       radius: 0.5,
     },
     header: {
-      title: 'shadcn-docs-starter',
+      title: 'Font2svg',
       showTitle: true,
       darkModeToggle: true,
       logo: {
         light: '/logo.svg',
-        dark: '/logo-dark.svg',
+        dark: '/logo.svg',
       },
       nav: [],
       links: [{
         icon: 'lucide:github',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/font2svg/font2svg',
         target: '_blank',
       }],
     },
@@ -29,29 +29,33 @@ export default defineAppConfig({
       collapse: false,
     },
     main: {
-      breadCrumb: true,
+      breadCrumb: false,
       showTitle: true,
+      codeIcon: {
+        'docker run command': 'vscode-icons:file-type-docker',
+        'docker compose file': 'vscode-icons:file-type-yaml',
+      },
     },
     footer: {
       credits: 'Copyright © 2024',
       links: [{
         icon: 'lucide:github',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/font2svg/font2svg',
         target: '_blank',
       }],
     },
     toc: {
       enable: true,
-      title: 'On This Page',
+      title: '页面导航',
       links: [{
-        title: 'Star on GitHub',
+        title: '关注 GitHub',
         icon: 'lucide:star',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/font2svg/font2svg',
         target: '_blank',
       }, {
-        title: 'Create Issues',
+        title: '问题反馈',
         icon: 'lucide:circle-dot',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
+        to: 'https://github.com/font2svg/font2svg/issues',
         target: '_blank',
       }],
     },

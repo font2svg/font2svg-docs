@@ -1,17 +1,17 @@
-<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1_2)">
-<g clip-path="url(#clip1_1_2)">
-<path d="M252 172L172 252" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M236 84L84 236" stroke="black" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<rect x="8" y="8" width="284" height="284" rx="22" stroke="black" stroke-width="16"/>
-</g>
-<defs>
-<clipPath id="clip0_1_2">
-<rect width="300" height="300" fill="white"/>
-</clipPath>
-<clipPath id="clip1_1_2">
-<rect width="256" height="256" fill="white" transform="translate(44 44)"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <linearGradient x1="50%" y1="62.9212247%" x2="22.5454169%" y2="-3.60822483e-14%" id="linearGradient-1">
+            <stop stop-color="#BD34FE" offset="0%"></stop>
+            <stop stop-color="#41D1FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M220.899145,512 L198.604317,512 L198.604317,0 L445.395683,0 L445.395683,22.2608696 L220.899145,22.2608696 L220.899145,44.5217391 L445.395683,44.5217391 L445.395683,66.7826087 L220.899145,66.7826087 L220.899145,89.0434783 L445.395683,89.0434783 L445.395683,111.304348 L220.899145,111.304348 L220.899145,222.608696 L434.86757,222.608696 L434.86757,244.869565 L220.899145,244.869565 L220.899145,267.130435 L434.86757,267.130435 L434.86757,289.391304 L220.899145,289.391304 L220.899145,311.652174 L434.86757,311.652174 L434.86757,333.913043 L220.899145,333.913043 L220.899145,512 Z M177.731415,512 L155.630695,512 L155.630695,0 L177.731415,0 L177.731415,512 Z M132.302158,512 L110.201439,512 L110.201439,0 L132.302158,0 L132.302158,512 Z M88.1007194,512 L66,512 L66,0 L88.1007194,0 L88.1007194,512 Z" id="path-2"></path>
+    </defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="形状" fill-rule="nonzero">
+            <use fill="#FFFFFF" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        </g>
+    </g>
 </svg>
