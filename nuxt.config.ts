@@ -14,6 +14,23 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
   modules: ['@nuxt/content', '@nuxt/eslint', '@nuxt/image'],
+  icon: {
+    clientBundle: {
+      icons: [
+        'lucide:circle-arrow-right',
+        'lucide:arrow-up-right',
+        'lucide:circle-dot',
+        'lucide:github',
+        'lucide:info',
+        'lucide:play',
+        'lucide:rocket',
+        'lucide:star',
+        'noto:construction',
+        'vscode-icons:file-type-docker',
+        'vscode-icons:file-type-yaml',
+      ],
+    },
+  },
   nitro: {
     prerender: {
       routes: [
