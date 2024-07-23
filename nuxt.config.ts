@@ -15,6 +15,7 @@ export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
   modules: ['@nuxt/content', '@nuxt/eslint', '@nuxt/image'],
   icon: {
+    serverBundle: 'auto',
     clientBundle: {
       icons: [
         'lucide:circle-arrow-right',
