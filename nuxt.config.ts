@@ -14,6 +14,15 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['shadcn-docs-nuxt'],
   modules: ['@nuxt/content', '@nuxt/eslint', '@nuxt/image'],
+  nitro: {
+    prerender: {
+      routes: [
+        '/getting-started',
+        '/getting-started/introduction',
+        '/getting-started/installation',
+      ],
+    },
+  },
   routeRules: {
     '/': { prerender: true },
   },
