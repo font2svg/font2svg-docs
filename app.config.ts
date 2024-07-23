@@ -29,7 +29,7 @@ export default defineAppConfig({
       collapse: false,
     },
     main: {
-      breadCrumb: false,
+      breadCrumb: true,
       showTitle: true,
       codeIcon: {
         'docker run command': 'vscode-icons:file-type-docker',
