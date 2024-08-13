@@ -15,11 +15,12 @@ export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
   modules: ['@nuxt/content', '@nuxt/eslint', '@nuxt/image'],
   icon: {
-    serverBundle: 'remote',
+    serverBundle: 'auto',
   },
   nitro: {
     prerender: {
       routes: [
+        '/',
         '/getting-started',
         '/getting-started/introduction',
         '/getting-started/installation',

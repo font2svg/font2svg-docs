@@ -37,7 +37,9 @@
     "yaml"
   ],
   "files.associations": {
-    "*.css": "tailwindcss",
-    "*.md": "mdc"
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
   }
 }
